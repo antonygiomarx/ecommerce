@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

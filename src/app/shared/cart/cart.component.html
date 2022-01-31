@@ -1,0 +1,10 @@
+<section
+  *ngIf="{ total: total$ | async, quantity: quantity$ | async } as cart"
+  class="qtys"
+>
+  <ng-container *ngIf="cart.total">
+    <mat-icon class="qty-item">add_shopping_cart</mat-icon>
+    <span class="qty-item"> {{ cart.total | currency }}</span>
+    <span class="qty-item">({{ cart.quantity }})</span>
+  </ng-container>
+</section>
